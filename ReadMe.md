@@ -34,8 +34,8 @@
 | Online           | Does the customer use internet banking facilities?                             |
 | Credit Card      | Does the customer uses a credit card issued by UniversalBank                   |
 
-
 ### Task 2: Import Datasets and Libraries
+
 ### Task 3: Exploratory Data Analysis
 ### Task 4: Perform Data Visualization
 ### Task 5: Prepare the data to feed the model
