@@ -35,7 +35,14 @@
 | Credit Card      | Does the customer uses a credit card issued by UniversalBank                   |
 
 ### Task 2: Import Datasets and Libraries
-
+#### Libraries:
+- Pandas: Dataframe manipulating library
+- Numpy: Numerical values, arrays, matrices handling library 
+- Matplotlib & Seaborn: Data visualization libraries
+- Tensorflow: Google framework for building and train AI model
+#### Dataset
+- The dataframe contains 5000 rows
+![](image/Bank_df.png)
 ### Task 3: Exploratory Data Analysis
 ### Task 4: Perform Data Visualization
 ### Task 5: Prepare the data to feed the model
