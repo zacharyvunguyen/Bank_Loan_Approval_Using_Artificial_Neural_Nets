@@ -13,13 +13,27 @@
 - In this project, we aim to build and train a deep neural network model to predict the likelihood of liability customers (depositors) buying personal loans based on customer features such as age, experience, income, location, family, education, existing mortgage, credit cards, etc.
 - Lenddo (https://lenddo.com) is a leading startup that uses advanced machine learning to analyze over 12,000+ features from various sources of data to predict an individual’s creditworthiness (e.x: social media count use, geolocation data, etc,)
 ![](image/Fig1.png)
-- Most bank customers are depositors
+- Most bank customers are depositors and the bank would like to start targeting those customers and issue personal loans to them
+- The bank would like to retain those depositors and convert them to personal loan customers and therefore growing annual revenue
+- In the past, the bank ran a marketing campaign that resulted in a 9% success rate.
+- The bank management team would like to analyze this campaign results and develop a model to target customers who have high probability of obtaining personal loans.
 
+| Column Name      | Column Description                                                             |
+|------------------|--------------------------------------------------------------------------------|
+| ID               | Customer ID                                                                    |
+| Age              | Customer's age in yearrs                                                       |
+| Experience       | Number of years of professional experience                                     |
+| Income           | Annual income of customer ($000)                                               |
+| Zipcode          | Home Adress Zip Code                                                           |
+| Family           | Family size of the customer                                                    |
+| CCAvg            | Average spending on credit cards per months ($000)                             |
+| Education        | Education level (1: Undergrad;2: Graduated, 3: Advanced/Professional)          |
+| Mortgage         | Value of house mortgage ($000)                                                 |
+| Personal Loan    | Did this customer accept the personal loan offered in the last campaign or not? |
+| Security Account | Does the customer have a securities account with the bank?                     |
+| Online           | Does the customer use internet banking facilities?                             |
+| Credit Card      | Does the customer uses a credit card issued by UniversalBank                   |
 
-
-| Column Name | Column Description |
-|-------------|--------------------|
-| dfjaldf     | lkfjadf;sdjfla     |
 
 ### Task 2: Import Datasets and Libraries
 ### Task 3: Exploratory Data Analysis
