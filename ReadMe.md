@@ -60,22 +60,27 @@
 ### Task 4: Perform Data Visualization
 #### Visualize personal Loan column
 - Percentage of customers who accepted personal loan ~ 9%
+
 ![](image/Task4-1.png)
 #### Visualize Education feature 
 - Most of customer has undergraduate degree
+
 ![](image/Task4-2.png)
 
 #### Visualize Age
 - Uniform distribution between 30-60 years
+
 ![](image/Task4-3.png)
 
 #### Visualize credit card availability feature
 - Recall that ~29% of customers have credit cards
+
 ![](image/Task4-4.png)
 
 #### Visualize income data
 - Most customers have incomes that range between 45K and 60K per year
 - Data is skewed with less customers earning above 100K
+
 ![](image/Task4-5.png)
 
 #### Customers with loan vs Customer without loan
@@ -94,15 +99,18 @@
 #### Correlation plot
 - Stong Positive correlation between experience and age
 - Strong positive correlation between CC average and income
+
 ![](image/Task4-8.png)
 
 #### Credit Card Spending
 - Most customers Credit card spending is between 0-4K
 - Data is positively skewed
+
 ![](image/Task4-9.png)
 
 #### Credit card average and personal loan relationship
 - Customers who have large credit card average tend to have personal loans
+
 ![](image/Task4-10.png)
 
 ### Task 5: Prepare the data to feed the model
