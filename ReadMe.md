@@ -42,8 +42,21 @@
 - Tensorflow: Google framework for building and train AI model
 #### Dataset
 - The dataframe contains 5000 rows
+
 ![](image/Bank_df.png)
+
 ### Task 3: Exploratory Data Analysis
+![](image/Task3-1.png)
+- The dataframe contains 14 columns in total
+- Customers range in age from 23 to 67, with an average age of 45
+- The average of income is $73,774
+- The average family size is 2
+- Credit Card Debt is an average of $1,938 per person
+
+![](image/Task3-2.png)
+
+- 29.4% of customers in this dataset have credit card debt
+- 9.6% of customers in this dataset have a personal loan
 ### Task 4: Perform Data Visualization
 ### Task 5: Prepare the data to feed the model
 ### Task 6: Understand the theory and intuition behind Artificial Neural Networks
