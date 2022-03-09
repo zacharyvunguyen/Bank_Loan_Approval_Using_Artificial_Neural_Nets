@@ -114,6 +114,35 @@
 ![](image/Task4-10.png)
 
 ### Task 5: Prepare the data to feed the model
+#### Features dataframe
+- Dataframe X created by  dropping the target variable ‘Personal Loan’
+
+![](image/Task5-1.png)
+
+#### Target dataframe
+- Another dataframe y created contains only  target variable 'Personal Loan'
+
+![](image/Task5-2.png)
+
+#### Apply One Hot Encoding Method
+- Apply the one hot encoding method to prepare for the algorithm and get a better prediction
+- With one-hot, we convert each categorical value into a new categorical column and assign a binary value of 1 or 0 to those columns.
+
+![](image/Task5-3.png)
+  
+#### Scale and split the data
+
+- Apply the one hot encoding method to prepare for the algorithm and get a better prediction
+- - With one-hot, we convert each categorical value into a new categorical column and assign a binary value of 1 or 0 to those columns.
+- This is vital to ensure that all the features that are fed to the artificial neural networks have equal weights.
+- We must scale the data before training the model using StandardScaler from Sklearn
+- - Basically, StandardScaler removes the mean and scales each feature or variable to unit variance
+- Split the data into testing and training sets 
+- - 90% for trainning
+- - 10% for testing
+
+![](image/Task5-4.png)
+
 ### Task 6: Understand the theory and intuition behind Artificial Neural Networks
 ### Task 7: Build a simple Multi Layer Neural Network
 ### Task 8: Compile and train a Deep Learning Model
