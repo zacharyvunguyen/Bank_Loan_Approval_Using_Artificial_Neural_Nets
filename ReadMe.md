@@ -144,6 +144,33 @@
 ![](image/Task5-4.png)
 
 ### Task 6: Understand the theory and intuition behind Artificial Neural Networks
+#### Neuro Mathematical Model
+- Using an input channel called dendrites, the neuron collects signals, processes them in its nucleus, and then generates an output in the form of long thin branches called axons.
+
+![](image/Task6-1.png)
+
+#### Single neuron model math
+- Bias allows to shift the activation function curve up or down.
+- Number of adjustable parameters = 4 (3 weights and 1 bias).
+- Activation function F.
+
+![](image/Task6-2.jpeg) 
+
+#### ANN Training Process
+- **Inputs X**, arrive through the preconnected path
+- Input is modeled using real weights W. The **weights are usually randomly selected**.
+- **Calculate** the output for every neuron from the input layer, to the hidden layers, to the **output layer**.
+- **Calculate the error in the outputs**
+- **Compute the gradient to change the weight:** Travel back from the output layer to the hidden layer to adjust the weights such that the error is decreased.
+- Keep repeating the process until the desired output is achieved (**the loss function is stable: Optimization done!**)
+
+| ANN Training Process                               | Error Performance Measure vs Epoch of Times |
+|----------------------------------------------------|---------------------------------------------|
+| ![](image/Task6-5.webp)<br/>![](image/Task6-3.png) | ![](image/Task6-4.png)                      |
+#### Gradient Descent
+
+
+
 ### Task 7: Build a simple Multi Layer Neural Network
 ### Task 8: Compile and train a Deep Learning Model
 ### Task 9: Assess the performance of the trained model
