@@ -154,7 +154,7 @@
 - Number of adjustable parameters = 4 (3 weights and 1 bias).
 - Activation function F.
 
-![](image/Task6-2.jpeg) 
+![](image/Task6-2.jpeg "Single Neuron Model Math")
 
 #### ANN Training Process
 - **Inputs X**, arrive through the preconnected path
@@ -166,8 +166,19 @@
 
 | ANN Training Process                               | Error Performance Measure vs Epoch of Times |
 |----------------------------------------------------|---------------------------------------------|
-| ![](image/Task6-5.webp)<br/>![](image/Task6-3.png) | ![](image/Task6-4.png)                      |
+| ![](image/Task6-5.webp)| ![](image/Task6-4.png "Loss V.s Epoch of Times")                      |
 #### Gradient Descent
+- Gradient descent is an optimization algorithm used to obtain the optimized network weight and bias values
+- It works by iteratively trying to minimize the const function
+- It works by calculating the gradient of the cost function and moving in the negative direction until the local/global minimum is achieved
+- If the positive of the gradient is taken, local/global maximum is achieved
+
+Learning Rate
+- The size of the steps taken are called the learning rate
+- The learning rate increases, the area covered in the search space will increase so we might reach  global minimum faster
+- However, we can overshoot the target
+- For small learning rates, training will take much longer to reach  optimized weight values
+
 
 
 
